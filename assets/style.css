@@ -3,7 +3,7 @@
 }
 
 .title{
-    color:rgb(255, 153, 0);
+    color:rgb(254, 183, 78);
 }
 
 .card-body{
@@ -27,12 +27,23 @@ li{
 
 #searchBar{
     margin-top: 300px;
+    margin-left: 650px;
+    color:white;
 }
 
 .searchButton{
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(254, 183, 78);
 }
 
 #searchInput{
     background-color: rgb(255, 255, 255);
+}
+
+.searchLabel{
+    font-weight: bold;
+    font-size: large;
+}
+
+.cards{
+    color:white;
 }
