@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(116, 220, 255);
+}
+
+.title{
+    color:rgb(255, 255, 255);
+}
+
+.card-body{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px;
+    border-color: black;
+    display: flex;
+    margin-top: 100px;
+}
+
+#jumbo{
+    margin-left: 100px;
+}
+
+li{
+    list-style-type: none;
+    font-weight:bolder;
+    font-size: large;
+}
+
+#searchBar{
+    margin-top: 300px;
+}
