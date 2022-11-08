@@ -28,3 +28,9 @@ function handleFormSubmit(event) {
 
   liButton.onclick = SearchHistorySearch;
 }
+
+function SearchHistorySearch(){
+    if (storage.length > 0) {
+        getWeatherdata(storage[storage.length - 1]);
+    }
+    }
