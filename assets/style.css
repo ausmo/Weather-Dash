@@ -1,9 +1,9 @@
 *{
-    background-color: rgb(116, 220, 255);
+    background-color: rgb(64, 118, 255);
 }
 
 .title{
-    color:rgb(255, 255, 255);
+    color:rgb(255, 153, 0);
 }
 
 .card-body{
@@ -27,4 +27,12 @@ li{
 
 #searchBar{
     margin-top: 300px;
+}
+
+.searchButton{
+    background-color: rgb(255, 153, 0);
+}
+
+#searchInput{
+    background-color: rgb(255, 255, 255);
 }
