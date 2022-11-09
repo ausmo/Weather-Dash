@@ -76,8 +76,8 @@ function getWeatherdata(userInput) {
                     let feelsLike = document.getElementById("feelsLike")
                     let humidity = document.getElementById("humidity")
                     let windSpeed = document.getElementById("windSpeed")
-                    temp.textContent="temp: " + weatherArray[0].main.temp + "F"
-                    feelsLike.textContent="feels Like: " + weatherArray[0].main.feels_like + "F"
+                    temp.textContent="Temperature: " + weatherArray[0].main.temp + "F"
+                    feelsLike.textContent="Feels Like: " + weatherArray[0].main.feels_like + "F"
                     humidity.textContent= "Humidity " + weatherArray[0].main.humidity + "%"
                     windSpeed.textContent="Wind Speed " + weatherArray[0].wind.speed + "mph"
                     let cityDay = document.getElementById("cityDay")
@@ -85,8 +85,8 @@ function getWeatherdata(userInput) {
                     let iconEl =document.getElementById("iconEl");
                     iconEl.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[0].weather[0].icon + ".png";
 
-                    let icon1 =document.getElementById("icon1");
-                    icon1.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[7].weather[0].icon + ".png";
+                    let card1 =document.getElementById("card1");
+                    card1.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[7].weather[0].icon + ".png";
                     let date1 = document.getElementById("date1")
                     date1.textContent = weatherArray[1].dt_txt
                     let temp1 = document.getElementById("temp1")
@@ -96,8 +96,8 @@ function getWeatherdata(userInput) {
                     let humid1 = document.getElementById("humid1")
                     humid1.textContent= "Humidity" + weatherArray[1].main.humidity + "%"
 
-                    let icon2 =document.getElementById("icon2");
-                    icon2.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[15].weather[0].icon + ".png";
+                    let card2 =document.getElementById("card2");
+                    card2.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[15].weather[0].icon + ".png";
                     let date2 = document.getElementById("date2")
                     date2.textContent = weatherArray[2].dt_txt
                     let temp2 = document.getElementById("temp2")
@@ -107,8 +107,8 @@ function getWeatherdata(userInput) {
                     let humid2 = document.getElementById("humid2")
                     humid2.textContent= "Humidity" + weatherArray[2].main.humidity + "%"
 
-                    let icon3 =document.getElementById("icon3");
-                    icon3.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[23].weather[0].icon + ".png";
+                    let card3 =document.getElementById("card3");
+                    card3.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[23].weather[0].icon + ".png";
                     let date3 = document.getElementById("date3")
                     date3.textContent = weatherArray[3].dt_txt
                     let temp3 = document.getElementById("temp3")
@@ -118,8 +118,8 @@ function getWeatherdata(userInput) {
                     let humid3 = document.getElementById("humid3")
                     humid3.textContent= "Humidity" + weatherArray[3].main.humidity + "%"
 
-                    let icon4 =document.getElementById("icon4");
-                    icon4.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[30].weather[0].icon + ".png";
+                    let card4 =document.getElementById("card4");
+                    card4.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[30].weather[0].icon + ".png";
                     let date4 = document.getElementById("date4")
                     date4.textContent = weatherArray[4].dt_txt
                     let temp4 = document.getElementById("temp4")
@@ -129,8 +129,8 @@ function getWeatherdata(userInput) {
                     let humid4 = document.getElementById("humid4")
                     humid4.textContent= "Humidity" + weatherArray[4].main.humidity + "%"
 
-                    let icon5 =document.getElementById("icon5");
-                    icon5.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[39].weather[0].icon + ".png";
+                    let card5 =document.getElementById("card5");
+                    card5.src = "https://openweathermap.org/img/w/"+ weatherInfo.list[39].weather[0].icon + ".png";
                     let date5 = document.getElementById("date5")
                     date5.textContent = weatherArray[5].dt_txt
                     let temp5 = document.getElementById("temp5")
